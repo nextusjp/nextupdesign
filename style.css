@@ -1,0 +1,78 @@
+/*
+Theme Name: Basic
+Theme URI: http://nextupdesign.com/
+Author: NAKAI, Tetsuji
+Author URI: http://nextupdesign.com/
+Description: Responsive Design for Wordpress
+Version: 0.1.0
+*/
+
+/* Fontを指定する */
+
+body,
+pre {
+	font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', sans-serif;
+}
+/* Admin bar(管理バー)を表示している場合 */
+body.admin-bar .navbar-fixed-top {
+    top: 46px;
+}
+body {
+  padding-top:60px;
+}
+@media (min-width: 768px) {
+	body.admin-bar .navbar-fixed-top {
+    top: 32px;
+	}
+}
+/* navbar search */
+.navbar-collapse .searchico{
+  font-size: 20px;
+  float: right;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    margin-right: 40px;
+  }
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #222;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0px;
+}
+.footer {
+  margin: 0 -15px;
+}
+.footer > .container {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+code {
+  font-size: 80%;
+}
